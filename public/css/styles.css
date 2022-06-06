@@ -1,0 +1,21 @@
+p.teaser {
+    text-indent: 30px;
+}
+
+.td-on-time{
+    font-style: oblique;
+    color: DarkGreen;
+    background-color: HoneyDew;
+}
+
+.td-warning {
+    font-style: oblique;
+    color: GoldenRod;
+    background-color: LemonChiffon;
+}
+
+.td-late {
+    font-style: oblique;
+    color: Crimson;
+    background-color: MistyRose;
+}
