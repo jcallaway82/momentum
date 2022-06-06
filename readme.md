@@ -2,4 +2,4 @@
 # Created by John Callaway of Callaway Technologies LLC
 
 ## Screenshots
-![Splash Page](screenshots/Splash.png)
+![Splash Page](/screenshots/Splash.png)
