@@ -1,0 +1,110 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+$bootstrap-sass-asset-helper: true;
+@import "~bootstrap-sass/assets/stylesheets/bootstrap";
+
+@import "~react-datepicker/dist/react-datepicker.css";
+
+/*@import "node_modules/antd/dist/antd";*/
+
+.row {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.form-control {
+  font-size: 10px !important;
+}
+
+.tooltip-inner {
+  max-width: none !important;
+  /* If max-width does not work, try using width instead */
+  width: auto !important;
+  text-align: left !important;
+}
+
+.tooltip-inner > p {
+  padding-left: 18px;
+  display: inline;
+}
+
+.popover{
+  max-width: none !important;
+}
+
+.react-datepicker-popper {
+  z-index: 99;
+}
+
+.react-datepicker {
+  font-size: 1.3rem !important;
+}
+
+.react-datepicker__current-month {
+  font-size: 1.5rem !important;
+}
+
+.react-datepicker__header {
+  padding-top: 6px !important;
+}
+
+.react-datepicker__navigation {
+  top: 13px !important;
+}
+
+.react-datepicker__day-name, .react-datepicker__day {
+  margin: 0.5rem !important;
+}
+
+ul {
+  list-style: none !important;
+}
+
+.editable-cell {
+  position: relative;
+}
+
+.editable-cell-input-wrapper,
+.editable-cell-text-wrapper {
+  padding-right: 24px;
+}
+
+.editable-cell-text-wrapper {
+  padding: 5px 24px 5px 5px;
+}
+
+.editable-cell-icon,
+.editable-cell-icon-check {
+  position: absolute;
+  right: 0;
+  width: 20px;
+  cursor: pointer;
+}
+
+.editable-cell-icon {
+  line-height: 18px;
+  display: none !important;
+}
+
+.editable-cell-icon-check {
+  line-height: 28px;
+}
+
+.editable-cell:hover .editable-cell-icon {
+  display: inline-block !important;
+}
+
+.editable-cell-icon:hover,
+.editable-cell-icon-check:hover {
+  color: #108ee9;
+}
+
+.editable-add-btn {
+  margin-bottom: 8px;
+}

@@ -1,0 +1,36 @@
+# Laravel/Homestead 5.4 Setup:
+
+- Install:
+    - virtualbox 5.1
+    - vagrant
+    - composer
+    - wamp64
+        - mysql 5.7
+        - php 7.1
+        - add wamp php folder location to Windows path
+
+- Copy pipeline-master into a source folder
+
+- Open git bash in pipeline-master
+
+- Add vagrant box
+    vagrant box add --box-version 9.6.0 laravel/homestead --provider virtualbox
+
+- Generate SSH key
+    ssh-keygen -t rsa -b 4096 -C "nolbishop82@gmail.com"
+    eval "$(ssh-agent -s)"
+    ssh-add -k ~/.ssh/id_rsa
+
+- Bring up vagrant box 
+    vagrant up
+
+# SSH into vagrant and configure app
+
+- vagrant ssh
+    - cd Code
+    - php7.1 artisan migrate
+    - php7.1 artisan db:seed
+    - php7.1 artisan cache:clear
+
+
+
