@@ -9,4 +9,19 @@ Login
 ![Login](/screenshots/Login.PNG)
 
 Pipeline Overview
-![Pipeline Overview](/screenshots/Pipeline Overview.PNG)
+![Pipeline Overview](/screenshots/Pipeline_Overview.PNG)
+
+Pipeline Filters
+![Pipeline Filters](/screenshots/Pipeline_Filters.PNG)
+
+Pipeline Tooltip
+![Pipeline Tooltip](/screenshots/Tooltip.png)
+
+Alerts
+![Alerts](/screenshots/Alerts.png)
+
+Loan Detail
+![Loan Detail](/screenshots/Loan_Detail.PNG)
+
+User Menu
+![User Menu](/screenshots/User_Menu.png)
